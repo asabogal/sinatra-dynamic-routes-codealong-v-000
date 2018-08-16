@@ -14,7 +14,7 @@ class App < Sinatra::Base
   end
 
   get '/goodbye/:name' do
-    "Goodby #{{params[:name]}}"
+    "Goodbye #{{params[:name]}}"
   end
 
 end
